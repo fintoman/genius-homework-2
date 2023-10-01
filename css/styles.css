@@ -44,6 +44,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  display: inline-block;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
@@ -81,6 +85,26 @@ ul {
   display: flex;
   gap: 56px;
 }
+
+.link {
+  color: var(--color-primary-blue);
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-dblue);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .soc-container {
   display: flex;
   gap: 32px;
@@ -143,6 +167,7 @@ h2 .accent {
   display: flex;
   gap: 28px;
   margin-left: 100px;
+  justify-content: center;
 }
 
 .main-text {
@@ -162,41 +187,33 @@ h2 .accent {
   margin-bottom: 200px;
 }
 
-.link {
-  color: var(--color-primary-blue);
-  font-family: 'Roboto';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
+/* our */
+
+.our2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+}
+.our-cards {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-.link:hover {
-  color: var(--color-primary-dblue);
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.arr-button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
-.socsety {
-  background-color: #ffffff;
-}
-
-#text-inf {
-  color: var(--color-primary-dblue);
-  font-family: Roboto;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38px; /* 172.727% */
-}
-
-#text-inf .beautyzone {
-  color: var(--color-primary-dblue, #011c44);
-  font-weight: 600;
+.contacts2 {
+  background-color: var(--color-primary-dblue);
+  border-radius: 20px;
+  margin-left: 32px;
+  width: 420px;
+  height: 480px;
+  text-align: center;
 }
 
 /* chony ludy */
@@ -221,6 +238,7 @@ h2 .accent {
   background-color: #b43c3c;
   width: 250px;
   flex-direction: column;
+  margin-bottom: 96px;
 }
 #text-inf2 {
   text-align: center;
@@ -248,6 +266,45 @@ h3 .hero-h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
+}
+
+/* Find */
+
+.contacts1 {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.map {
+  border-radius: 20px;
+  border: none;
+  height: 480px;
+}
+
+.text-cont {
+  color: #ffffff;
+}
+
+/* footer */
+
+.socsety {
+  background-color: #ffffff;
+}
+
+#text-inf {
+  color: var(--color-primary-dblue);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 172.727% */
+}
+
+#text-inf .beautyzone {
+  color: var(--color-primary-dblue, #011c44);
+  font-weight: 600;
 }
 
 footer {
