@@ -42,6 +42,7 @@ h6 p {
 
 ul {
   list-style-type: none;
+  margin-top: 0px;
 }
 
 a {
@@ -55,6 +56,13 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+/* Body */
+.container-site {
+  text-align: justify;
+  max-width: 1440px;
+  padding: 20px;
 }
 
 /* Header */
@@ -84,6 +92,7 @@ a {
 .nav-container {
   display: flex;
   gap: 56px;
+  margin-top: 18px;
 }
 
 .link {
@@ -289,8 +298,19 @@ h3 .hero-h3 {
 
 /* footer */
 
-.socsety {
-  background-color: #ffffff;
+footer {
+  background-color: #011f4a;
+}
+
+.container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 186px;
+  margin: 56px 100px 56px 100px;
+}
+
+.socpac {
+  margin-left: 40px;
 }
 
 #text-inf {
@@ -305,10 +325,6 @@ h3 .hero-h3 {
 #text-inf .beautyzone {
   color: var(--color-primary-dblue, #011c44);
   font-weight: 600;
-}
-
-footer {
-  background-color: #011f4a;
 }
 
 .link2 {
