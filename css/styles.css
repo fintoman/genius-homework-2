@@ -62,7 +62,6 @@ a {
 .container-site {
   text-align: justify;
   max-width: 1440px;
-  padding: 20px;
 }
 
 /* Header */
@@ -211,9 +210,23 @@ h2 .accent {
 
 .arr-button {
   display: flex;
-  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
   border: none;
+  background-color: transparent;
   cursor: pointer;
+  stroke: black;
+  fill: #ffffff;
+  text-decoration: none;
+}
+
+.arr-button:hover .arr-arrow {
+  fill: var(--color-primary-blue);
+  stroke: #ffffff;
+  transition: fill 0.3s ease;
 }
 
 .contacts2 {
