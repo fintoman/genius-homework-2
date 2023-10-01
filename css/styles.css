@@ -93,6 +93,13 @@ ul {
 }
 
 h1 {
+  color: var(--color-primary-blue);
+  font-family: Play;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px; /* 81.429% */
+  text-transform: capitalize;
   margin-bottom: 40px;
 }
 
@@ -125,6 +132,11 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+h2 .accent {
+  color: var(--color-primary-blue);
+  text-transform: capitalize;
 }
 
 .main-inf {
@@ -173,21 +185,6 @@ h2 {
   background-color: #ffffff;
 }
 
-h1 {
-  color: var(--color-primary-blue);
-  font-family: Play;
-  font-size: 140px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 114px; /* 81.429% */
-  text-transform: capitalize;
-}
-
-h2 .accent {
-  color: var(--color-primary-blue);
-  text-transform: capitalize;
-}
-
 #text-inf {
   color: var(--color-primary-dblue);
   font-family: Roboto;
@@ -202,6 +199,33 @@ h2 .accent {
   font-weight: 600;
 }
 
+/* chony ludy */
+
+.info-chomy {
+}
+
+.card-cont {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  height: 130px;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  /* background-color: #fff; */
+  background-color: #b43c3c;
+  width: 250px;
+  flex-direction: column;
+}
+#text-inf2 {
+  text-align: center;
+}
+
 h3 {
   color: var(--color-primary-dblue, #011c44);
   text-align: center;
@@ -210,6 +234,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 48px;
 }
 
 h3 .hero-h3 {
