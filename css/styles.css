@@ -53,12 +53,6 @@ ul {
   overflow: hidden;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 /* Header */
 
 .header-section {
@@ -125,25 +119,35 @@ h1 {
   cursor: pointer;
 }
 /* main info */
+h2 {
+  font-family: Play;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .main-inf {
   display: flex;
   gap: 28px;
-  width: 1440px;
+  margin-left: 100px;
 }
 
 .main-text {
   padding: 40px;
-  max-width: 400px;
-  max-height: 709px;
+  width: 700px;
   display: block;
 }
 
 .main-fot {
-  width: 335px;
-  height: 328px;
 }
 
 .main-foto {
+  margin-left: 30px;
+}
+.main-foto2 {
+  margin-left: 200px;
+  margin-bottom: 200px;
 }
 
 .link {
@@ -177,14 +181,6 @@ h1 {
   font-weight: 700;
   line-height: 114px; /* 81.429% */
   text-transform: capitalize;
-}
-
-h2 {
-  font-family: Play;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 h2 .accent {
