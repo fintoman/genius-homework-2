@@ -53,6 +53,11 @@ ul {
   overflow: hidden;
 }
 
+/* Header */
+.head-container {
+  display: flex;
+}
+
 .button {
   color: #ffffff;
   border-radius: 32px;
