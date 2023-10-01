@@ -191,6 +191,14 @@ h2 .accent {
   margin-left: 200px;
   margin-bottom: 200px;
 }
+.grad2 {
+  position: relative;
+}
+.grad2 img {
+  position: absolute;
+  z-index: -1;
+  top: -190px;
+}
 
 /* our */
 
@@ -253,8 +261,8 @@ h2 .accent {
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  /* background-color: #fff; */
-  background-color: #b43c3c;
+  background-color: #fff;
+  /* background-color: #b43c3c; */
   width: 250px;
   flex-direction: column;
   margin-bottom: 96px;
@@ -309,11 +317,23 @@ h3 .hero-h3 {
 /* footer */
 
 footer {
-  background-color: #011f4a;
-  background-image: url(../images/photomed.png);
+  background-color: #011c44;
+  background-image: url(../images/bfooter.png);
   background-repeat: no-repeat;
-  background-position-x: 1193px;
-  background-position-y: 126px;
+}
+.bfooter {
+  position: relative;
+}
+.bfooter img {
+  position: absolute;
+  top: 0px;
+  color: var(--color-primary-dblue);
+}
+
+.img-photo {
+  position: absolute;
+  left: 1093px;
+  top: 68px;
 }
 
 .container {
@@ -321,6 +341,7 @@ footer {
   align-items: flex-start;
   gap: 186px;
   margin: 56px 100px 56px 100px;
+  position: relative;
 }
 
 .socpac {
