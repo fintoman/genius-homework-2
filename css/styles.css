@@ -74,16 +74,6 @@ a {
   /* background-attachment: fixed; */
 }
 
-.grad1 {
-  position: absolute;
-  top: 70px;
-  left: -500px;
-}
-.grad1 img {
-  max-width: 100%;
-  height: auto;
-}
-
 .head-container {
   display: flex;
   background-size: cover;
