@@ -62,6 +62,7 @@ a {
 .container-site {
   text-align: justify;
   max-width: 1440px;
+  margin: -10px;
 }
 
 /* Header */
@@ -90,7 +91,7 @@ a {
 
 .nav-container {
   display: flex;
-  gap: 56px;
+  gap: 40px;
   margin-top: 18px;
 }
 
